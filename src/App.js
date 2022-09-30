@@ -13,8 +13,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Header />
+
       <Routes>
-      
+        <Route path='/houses' element={<Houses />} />
+        <Route path='/houses/:id' element={<House />} />
+        <Route path='/houses/:houseId/members/:memberId' element={<Member />} />
       </Routes>
     </BrowserRouter>
   )
