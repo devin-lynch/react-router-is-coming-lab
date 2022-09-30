@@ -7,6 +7,8 @@ import Header from "./components/partials/Header"
 
 import gameOfThrones from './gameOfThrones'
 
+import './App.css'
+
 
 export default function App() {
   // console.log(gameOfThrones)
