@@ -7,7 +7,7 @@ export default function House(props) {
     const housePeople = house.people.map((person, i) => {
         return <li key={`li-${i}`}>
                     <Link
-                        to={`/houses/:houseId/members/${person.id}`}
+                        to={`/houses/${house.id}/members/${person.id}`}
                         key={`member-${i}`}
                     >
                         {person.name}
