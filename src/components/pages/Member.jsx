@@ -15,6 +15,7 @@ export default function Member(props) {
             <div className="desc">
                 <h1>{member.name}</h1>
                 <p>{member.description}</p>
+                <a href={`https://awoiaf.westeros.org/index.php/${member.wikiSuffix}`}>Wiki</a>
             </div>
         </div>
         )
